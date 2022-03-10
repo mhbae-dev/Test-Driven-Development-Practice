@@ -5,7 +5,11 @@ function fizzBuzz(number) {
     return "Fizz";
   } else if (number % 5 === 0) {
     return "Buzz";
+  } else {
+    return number
   }
 }
 
 module.exports = fizzBuzz;
+
+console.log(fizzBuzz(3))
